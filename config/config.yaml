@@ -1,0 +1,17 @@
+# Database configuration
+database:
+  driver: sqlite3
+  name: going.db
+  path: ./data
+  log_level: info
+
+# Server configuration
+server:
+  host: localhost
+  port: 8080
+
+# Session configuration
+session:
+  name: going_session
+  secret: change-this-to-a-secure-secret-key
+  lifetime: 120  # Session lifetime in minutes (2 hours)
